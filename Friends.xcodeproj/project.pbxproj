@@ -9,23 +9,40 @@
 /* Begin PBXBuildFile section */
 		D4F2B83C2C12E54A00F575C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B83B2C12E54A00F575C2 /* AppDelegate.swift */; };
 		D4F2B83E2C12E54A00F575C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B83D2C12E54A00F575C2 /* SceneDelegate.swift */; };
-		D4F2B8402C12E54A00F575C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B83F2C12E54A00F575C2 /* ViewController.swift */; };
+		D4F2B8402C12E54A00F575C2 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B83F2C12E54A00F575C2 /* SelectionViewController.swift */; };
 		D4F2B8452C12E54C00F575C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F2B8442C12E54C00F575C2 /* Assets.xcassets */; };
 		D4F2B8482C12E54C00F575C2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D4F2B8472C12E54C00F575C2 /* Base */; };
 		D4F2B8502C12E56800F575C2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D4F2B84F2C12E56800F575C2 /* .gitignore */; };
 		D4F2B8522C12E57F00F575C2 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B8512C12E57F00F575C2 /* Secret.swift */; };
+		D4F2B8542C12E72400F575C2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B8532C12E72400F575C2 /* Extensions.swift */; };
+		D4F2B8562C13432000F575C2 /* TamagotchiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B8552C13432000F575C2 /* TamagotchiCollectionViewCell.swift */; };
+		D4F2B8582C13439600F575C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B8572C13439600F575C2 /* DetailViewController.swift */; };
+		D4F2B85A2C1344CA00F575C2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B8592C1344CA00F575C2 /* SettingsViewController.swift */; };
+		D4F2B85C2C1344D800F575C2 /* EditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B85B2C1344D800F575C2 /* EditUserViewController.swift */; };
+		D4F2B85E2C13456D00F575C2 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B85D2C13456D00F575C2 /* UserDefaultsHelper.swift */; };
+		D4F2B8612C13459800F575C2 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B8602C13459800F575C2 /* SettingsTableViewCell.swift */; };
+		D4F2B8642C1346C300F575C2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D4F2B8632C1346C300F575C2 /* SnapKit */; };
+		D4F2B8682C1347FB00F575C2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2B8672C1347FB00F575C2 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D4F2B8382C12E54A00F575C2 /* Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F2B83B2C12E54A00F575C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4F2B83D2C12E54A00F575C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D4F2B83F2C12E54A00F575C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4F2B83F2C12E54A00F575C2 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 		D4F2B8442C12E54C00F575C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4F2B8472C12E54C00F575C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4F2B8492C12E54C00F575C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4F2B84F2C12E56800F575C2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D4F2B8512C12E57F00F575C2 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		D4F2B8532C12E72400F575C2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D4F2B8552C13432000F575C2 /* TamagotchiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiCollectionViewCell.swift; sourceTree = "<group>"; };
+		D4F2B8572C13439600F575C2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D4F2B8592C1344CA00F575C2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D4F2B85B2C1344D800F575C2 /* EditUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserViewController.swift; sourceTree = "<group>"; };
+		D4F2B85D2C13456D00F575C2 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		D4F2B8602C13459800F575C2 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		D4F2B8672C1347FB00F575C2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F2B8642C1346C300F575C2 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,13 +79,45 @@
 			children = (
 				D4F2B83B2C12E54A00F575C2 /* AppDelegate.swift */,
 				D4F2B83D2C12E54A00F575C2 /* SceneDelegate.swift */,
-				D4F2B83F2C12E54A00F575C2 /* ViewController.swift */,
+				D4F2B8662C1347EB00F575C2 /* Main */,
+				D4F2B8652C1347B300F575C2 /* Selection */,
+				D4F2B85F2C13457E00F575C2 /* Settings */,
 				D4F2B8512C12E57F00F575C2 /* Secret.swift */,
+				D4F2B8532C12E72400F575C2 /* Extensions.swift */,
+				D4F2B85D2C13456D00F575C2 /* UserDefaultsHelper.swift */,
 				D4F2B8442C12E54C00F575C2 /* Assets.xcassets */,
 				D4F2B8462C12E54C00F575C2 /* LaunchScreen.storyboard */,
 				D4F2B8492C12E54C00F575C2 /* Info.plist */,
 			);
 			path = Friends;
+			sourceTree = "<group>";
+		};
+		D4F2B85F2C13457E00F575C2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D4F2B8592C1344CA00F575C2 /* SettingsViewController.swift */,
+				D4F2B8602C13459800F575C2 /* SettingsTableViewCell.swift */,
+				D4F2B85B2C1344D800F575C2 /* EditUserViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D4F2B8652C1347B300F575C2 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				D4F2B83F2C12E54A00F575C2 /* SelectionViewController.swift */,
+				D4F2B8552C13432000F575C2 /* TamagotchiCollectionViewCell.swift */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		D4F2B8662C1347EB00F575C2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D4F2B8672C1347FB00F575C2 /* MainViewController.swift */,
+				D4F2B8572C13439600F575C2 /* DetailViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +136,9 @@
 			dependencies = (
 			);
 			name = Friends;
+			packageProductDependencies = (
+				D4F2B8632C1346C300F575C2 /* SnapKit */,
+			);
 			productName = Friends;
 			productReference = D4F2B8382C12E54A00F575C2 /* Friends.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +167,9 @@
 				Base,
 			);
 			mainGroup = D4F2B82F2C12E54A00F575C2;
+			packageReferences = (
+				D4F2B8622C1346C300F575C2 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = D4F2B8392C12E54A00F575C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,10 +197,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F2B8402C12E54A00F575C2 /* ViewController.swift in Sources */,
+				D4F2B85E2C13456D00F575C2 /* UserDefaultsHelper.swift in Sources */,
+				D4F2B8542C12E72400F575C2 /* Extensions.swift in Sources */,
+				D4F2B8402C12E54A00F575C2 /* SelectionViewController.swift in Sources */,
+				D4F2B8682C1347FB00F575C2 /* MainViewController.swift in Sources */,
 				D4F2B8522C12E57F00F575C2 /* Secret.swift in Sources */,
+				D4F2B8562C13432000F575C2 /* TamagotchiCollectionViewCell.swift in Sources */,
 				D4F2B83C2C12E54A00F575C2 /* AppDelegate.swift in Sources */,
+				D4F2B8612C13459800F575C2 /* SettingsTableViewCell.swift in Sources */,
 				D4F2B83E2C12E54A00F575C2 /* SceneDelegate.swift in Sources */,
+				D4F2B85C2C1344D800F575C2 /* EditUserViewController.swift in Sources */,
+				D4F2B8582C13439600F575C2 /* DetailViewController.swift in Sources */,
+				D4F2B85A2C1344CA00F575C2 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +431,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D4F2B8622C1346C300F575C2 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D4F2B8632C1346C300F575C2 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4F2B8622C1346C300F575C2 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D4F2B8302C12E54A00F575C2 /* Project object */;
 }
