@@ -68,7 +68,7 @@ class SettingsTableViewCell: UITableViewCell {
         nameLabel.font = .systemFont(ofSize: 13)
         
         arrowImageView.tintColor = .lightGray
-        arrowImageView.image = UIImage(systemName: "chevron.right")
+        arrowImageView.image = UIImage(systemName: "chevron.right") 
         
     }
     
